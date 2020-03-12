@@ -1,7 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5da941eb-ce79-40f3-8776-4cf81cb18ae8" name="Default Changelist" comment="" />
+    <list default="true" id="5da941eb-ce79-40f3-8776-4cf81cb18ae8" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cars.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/trecia_paskaita/PenktaUzduotis.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/trecia_paskaita/TaskFileReadFromFile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/trecia_paskaita/WriteToFile.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/pirma_paskaita_03_09/PirmaUzduotis.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/pirma_paskaita_03_09/PirmaUzduotis.class" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,7 +23,11 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="ProjectId" id="1Ytwyynyd3WS6ixh7WLKAWihiKf" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -22,34 +35,28 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
-  <component name="RunManager" selected="Application.PirmaUzduotis">
-    <configuration name="ConsoleInputExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ConsoleInputExample" />
-      <module name="pirma_paskaita_03_09" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="FirstExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.kcs.example.FirstExample" />
-      <module name="pirma_paskaita_03_09" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.kcs.example.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.WriteToFile">
     <configuration name="IndividualiUzduotis" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="IndividualiUzduotis" />
       <module name="pirma_paskaita_03_09" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PenktaUzduotis" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="trecia_paskaita.PenktaUzduotis" />
+      <module name="pirma_paskaita_03_09" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="trecia_paskaita.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -61,12 +68,39 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TaskFileReadFromFile" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="trecia_paskaita.TaskFileReadFromFile" />
+      <module name="pirma_paskaita_03_09" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="trecia_paskaita.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WriteToFile" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="trecia_paskaita.WriteToFile" />
+      <module name="pirma_paskaita_03_09" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="trecia_paskaita.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.WriteToFile" />
+        <item itemvalue="Application.TaskFileReadFromFile" />
+        <item itemvalue="Application.PenktaUzduotis" />
         <item itemvalue="Application.PirmaUzduotis" />
         <item itemvalue="Application.IndividualiUzduotis" />
-        <item itemvalue="Application.ConsoleInputExample" />
-        <item itemvalue="Application.FirstExample" />
       </list>
     </recent_temporary>
   </component>
@@ -82,37 +116,46 @@
       <updated>1583775457596</updated>
       <workItem from="1583775460347" duration="7364000" />
       <workItem from="1584030722418" duration="660000" />
+      <workItem from="1584031619008" duration="2418000" />
+      <workItem from="1584034077100" duration="3032000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <option name="LAST_COMMIT_MESSAGE" value="" />
+  </component>
   <component name="WindowStateProjectService">
     <state x="275" y="21" key="#Notifications" timestamp="1584031087071">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="275" y="21" key="#Notifications/0.0.1366.728@0.0.1366.728" timestamp="1584031087071" />
+    <state x="277" y="0" key="CommitChangelistDialog2" timestamp="1584037044010">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="277" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1584037044010" />
     <state x="505" y="278" key="Github.CreateGistDialog" timestamp="1584031043070">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="505" y="278" key="Github.CreateGistDialog/0.0.1366.728@0.0.1366.728" timestamp="1584031043070" />
-    <state width="1322" height="160" key="GridCell.Tab.0.bottom" timestamp="1583782897502">
+    <state width="661" height="144" key="GridCell.Tab.0.bottom" timestamp="1584037463414">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="160" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1583782897502" />
-    <state width="1322" height="160" key="GridCell.Tab.0.center" timestamp="1583782897502">
+    <state width="661" height="144" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1584037463414" />
+    <state width="661" height="144" key="GridCell.Tab.0.center" timestamp="1584037463414">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="160" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1583782897502" />
-    <state width="1322" height="160" key="GridCell.Tab.0.left" timestamp="1583782897502">
+    <state width="661" height="144" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1584037463414" />
+    <state width="661" height="144" key="GridCell.Tab.0.left" timestamp="1584037463414">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="160" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1583782897502" />
-    <state width="1322" height="160" key="GridCell.Tab.0.right" timestamp="1583782897502">
+    <state width="661" height="144" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1584037463414" />
+    <state width="661" height="144" key="GridCell.Tab.0.right" timestamp="1584037463414">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="160" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1583782897502" />
+    <state width="661" height="144" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1584037463414" />
     <state x="384" y="186" key="com.intellij.ide.util.TipDialog" timestamp="1584030741615">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
