@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="5da941eb-ce79-40f3-8776-4cf81cb18ae8" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1Ytwyynyd3WS6ixh7WLKAWihiKf" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/1-3_pask" />
+  </component>
+  <component name="RunManager" selected="Application.PirmaUzduotis">
+    <configuration name="ConsoleInputExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ConsoleInputExample" />
+      <module name="pirma_paskaita_03_09" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FirstExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.kcs.example.FirstExample" />
+      <module name="pirma_paskaita_03_09" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.kcs.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="IndividualiUzduotis" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="IndividualiUzduotis" />
+      <module name="pirma_paskaita_03_09" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PirmaUzduotis" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="PirmaUzduotis" />
+      <module name="pirma_paskaita_03_09" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.PirmaUzduotis" />
+        <item itemvalue="Application.IndividualiUzduotis" />
+        <item itemvalue="Application.ConsoleInputExample" />
+        <item itemvalue="Application.FirstExample" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="5da941eb-ce79-40f3-8776-4cf81cb18ae8" name="Default Changelist" comment="" />
+      <created>1583775457596</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1583775457596</updated>
+      <workItem from="1583775460347" duration="7364000" />
+      <workItem from="1584030722418" duration="891000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="275" y="21" key="#Notifications" timestamp="1584031087071">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="275" y="21" key="#Notifications/0.0.1366.728@0.0.1366.728" timestamp="1584031087071" />
+    <state x="463" y="117" key="FileChooserDialogImpl" timestamp="1584031615112">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="463" y="117" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1584031615112" />
+    <state x="505" y="278" key="Github.CreateGistDialog" timestamp="1584031043070">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="505" y="278" key="Github.CreateGistDialog/0.0.1366.728@0.0.1366.728" timestamp="1584031043070" />
+    <state width="1322" height="160" key="GridCell.Tab.0.bottom" timestamp="1583782897502">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1322" height="160" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1583782897502" />
+    <state width="1322" height="160" key="GridCell.Tab.0.center" timestamp="1583782897502">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1322" height="160" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1583782897502" />
+    <state width="1322" height="160" key="GridCell.Tab.0.left" timestamp="1583782897502">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1322" height="160" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1583782897502" />
+    <state width="1322" height="160" key="GridCell.Tab.0.right" timestamp="1583782897502">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1322" height="160" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1583782897502" />
+    <state x="384" y="186" key="com.intellij.ide.util.TipDialog" timestamp="1584030741615">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="384" y="186" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1584030741615" />
+    <state x="65" y="0" key="new project wizard" timestamp="1584030877805">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="65" y="0" key="new project wizard/0.0.1366.728@0.0.1366.728" timestamp="1584030877805" />
+  </component>
+</project>
