@@ -2,10 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5da941eb-ce79-40f3-8776-4cf81cb18ae8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/ketvirta_paskaita/CollectionExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/trecia_paskaita/Skaiciuotuvas.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/trecia_paskaita/UzduotisSesta.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laiskas.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/result.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ketvirta_paskaita/UzduotisPirma.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/pirma_paskaita_03_09/AntraUzduotis.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/pirma_paskaita_03_09/ConsoleInputExample.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/pirma_paskaita_03_09/IndividualiUzduotis.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/pirma_paskaita_03_09/PirmaUzduotis.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AntraUzduotis.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/trecia_paskaita/AntraUzduotis.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ConsoleInputExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/trecia_paskaita/ConsoleInputExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/IndividualiUzduotis.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/trecia_paskaita/IndividualiUzduotis.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/PirmaUzduotis.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/trecia_paskaita/PirmaUzduotis.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,7 +46,12 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
-  <component name="RunManager" selected="Application.CollectionExample">
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Tomas\Desktop\java_paskaitos\1-3_pask" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.UzduotisPirma">
     <configuration name="CollectionExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ketvirta_paskaita.CollectionExample" />
       <module name="pirma_paskaita_03_09" />
@@ -50,8 +65,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PenktaUzduotis" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="trecia_paskaita.PenktaUzduotis" />
+    <configuration name="TaskFileReadFromFile" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="trecia_paskaita.TaskFileReadFromFile" />
       <module name="pirma_paskaita_03_09" />
       <extension name="coverage">
         <pattern>
@@ -63,12 +78,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TaskFileReadFromFile" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="trecia_paskaita.TaskFileReadFromFile" />
+    <configuration name="UzduotisPirma" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ketvirta_paskaita.UzduotisPirma" />
       <module name="pirma_paskaita_03_09" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="trecia_paskaita.*" />
+          <option name="PATTERN" value="ketvirta_paskaita.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -104,11 +119,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.UzduotisPirma" />
         <item itemvalue="Application.CollectionExample" />
         <item itemvalue="Application.UzduotisSesta" />
         <item itemvalue="Application.WriteToFile" />
         <item itemvalue="Application.TaskFileReadFromFile" />
-        <item itemvalue="Application.PenktaUzduotis" />
       </list>
     </recent_temporary>
   </component>
@@ -126,7 +141,7 @@
       <workItem from="1584030722418" duration="660000" />
       <workItem from="1584031619008" duration="2418000" />
       <workItem from="1584034077100" duration="7595000" />
-      <workItem from="1584116457560" duration="4636000" />
+      <workItem from="1584116457560" duration="10613000" />
     </task>
     <task id="LOCAL−00001" summary="WriteToFile">
       <created>1584037567015</created>
@@ -134,7 +149,13 @@
       <option name="presentableId" value="LOCAL−00001" />
       <updated>1584037567015</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL−00002" summary="List/Set/Map">
+      <created>1584122018031</created>
+      <option name="number" value="LOCAL−00002" />
+      <option name="presentableId" value="LOCAL−00002" />
+      <updated>1584122018031</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -142,7 +163,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="WriteToFile" />
-    <option name="LAST_COMMIT_MESSAGE" value="WriteToFile" />
+    <MESSAGE value="List/Set/Map" />
+    <option name="LAST_COMMIT_MESSAGE" value="List/Set/Map" />
   </component>
   <component name="WindowStateProjectService">
     <state x="0" y="21" key="#Inspections" timestamp="1584119800893">
@@ -153,30 +175,30 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="275" y="21" key="#Notifications/0.0.1366.728@0.0.1366.728" timestamp="1584031087071" />
-    <state x="277" y="0" key="CommitChangelistDialog2" timestamp="1584037566469">
+    <state x="242" y="0" key="CommitChangelistDialog2" timestamp="1584122017405">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="277" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1584037566469" />
+    <state x="242" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1584122017405" />
     <state x="505" y="278" key="Github.CreateGistDialog" timestamp="1584031043070">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="505" y="278" key="Github.CreateGistDialog/0.0.1366.728@0.0.1366.728" timestamp="1584031043070" />
-    <state width="493" height="139" key="GridCell.Tab.0.bottom" timestamp="1584120840371">
+    <state width="492" height="89" key="GridCell.Tab.0.bottom" timestamp="1584127895586">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="493" height="139" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1584120840371" />
-    <state width="493" height="139" key="GridCell.Tab.0.center" timestamp="1584120840371">
+    <state width="492" height="89" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1584127895586" />
+    <state width="492" height="89" key="GridCell.Tab.0.center" timestamp="1584127895585">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="493" height="139" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1584120840371" />
-    <state width="493" height="139" key="GridCell.Tab.0.left" timestamp="1584120840371">
+    <state width="492" height="89" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1584127895585" />
+    <state width="492" height="89" key="GridCell.Tab.0.left" timestamp="1584127895585">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="493" height="139" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1584120840371" />
-    <state width="493" height="139" key="GridCell.Tab.0.right" timestamp="1584120840371">
+    <state width="492" height="89" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1584127895585" />
+    <state width="492" height="89" key="GridCell.Tab.0.right" timestamp="1584127895586">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="493" height="139" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1584120840371" />
+    <state width="492" height="89" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1584127895586" />
     <state x="384" y="186" key="com.intellij.ide.util.TipDialog" timestamp="1584030741615">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -185,5 +207,9 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="84" y="0" key="new project wizard/0.0.1366.728@0.0.1366.728" timestamp="1584116656376" />
+    <state x="31" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1584127849929">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="31" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1584127849929" />
   </component>
 </project>

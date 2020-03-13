@@ -1,3 +1,5 @@
+package trecia_paskaita;
+
 import java.util.Scanner;
 
 public class PirmaUzduotis {
