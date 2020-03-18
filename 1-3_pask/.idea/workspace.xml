@@ -2,6 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5da941eb-ce79-40f3-8776-4cf81cb18ae8" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../TestoUzduotis/TestoUzduotis.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TestoUzduotis/src/TestProgram.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ThirdFXExample/ThirdFXExample.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -131,6 +134,7 @@
       <workItem from="1584034077100" duration="7595000" />
       <workItem from="1584116457560" duration="10894000" />
       <workItem from="1584375838221" duration="1642000" />
+      <workItem from="1584432634303" duration="2871000" />
     </task>
     <task id="LOCAL−00001" summary="WriteToFile">
       <created>1584037567015</created>
