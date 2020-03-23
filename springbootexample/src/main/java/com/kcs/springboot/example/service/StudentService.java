@@ -15,14 +15,57 @@ import java.util.List;
 public class StudentService {
     private JDBCConnector jdbcConnector;
 
-@Autowired
+    @Autowired
     public StudentService(JDBCConnector jdbcConnector) {
         this.jdbcConnector = jdbcConnector;
     }
 
-    public Student createStudent(Student student){
+    public Student updateStudent(Student student){
         Connection connection = jdbcConnector.createConnection();
         if (connection == null){
+            return null;
+        }
+        PreparedStatement preparedStatement = null;
+        try {
+            preparedStatement = connection.prepareStatement
+                    ("update students set name = ?, surname = ?, phone = ?, email = ? where id =?");
+            preparedStatement.setString(1, student.getName());
+            preparedStatement.setString(2, student.getSurname());
+            preparedStatement.setString(3, student.getPhone());
+            preparedStatement.setString(4, student.getEmail());
+            preparedStatement.setInt(5, student.getId());
+
+            preparedStatement.execute();
+
+            return student;
+
+        } catch (SQLException e) {
+            System.out.println(e.getMessage());
+        }
+
+        return null;
+    }
+    public Student deleteStudent(String studentId) {
+        Connection connection = jdbcConnector.createConnection();
+        if (connection == null) {
+            return null;
+        }
+
+        try {
+            PreparedStatement preparedStatement = connection.prepareStatement("delete from students where id=?");
+            preparedStatement.setInt(1, Integer.parseInt(studentId));
+            preparedStatement.execute();
+
+        } catch (SQLException e) {
+            System.out.println(e.getMessage());
+        }
+        return null;
+    }
+
+
+    public Student createStudent(Student student) {
+        Connection connection = jdbcConnector.createConnection();
+        if (connection == null) {
             return null;
         }
 
@@ -35,7 +78,7 @@ public class StudentService {
             preparedStatement.setString(4, student.getEmail());
 
             preparedStatement.execute();
-                return getStudents().stream().filter(s-> s.equals(student)).findFirst().orElse(null);
+            return getStudents().stream().filter(s -> s.equals(student)).findFirst().orElse(null);
 
         } catch (SQLException e) {
             System.out.println(e.getMessage());
@@ -43,17 +86,17 @@ public class StudentService {
         return null;
     }
 
-    public Student getStudent(String studentId){
+    public Student getStudent(String studentId) {
 
         Connection connection = jdbcConnector.createConnection();
-        if (connection == null){
+        if (connection == null) {
             return null;
         }
         try {
             PreparedStatement preparedStatement = connection.prepareStatement("select * from students where id = ?");
             preparedStatement.setInt(1, Integer.parseInt(studentId));
             ResultSet resultSet = preparedStatement.executeQuery();
-            if(resultSet.next()){
+            if (resultSet.next()) {
                 return mapStudent(resultSet);
             }
 
@@ -62,34 +105,35 @@ public class StudentService {
         }
         return null;
     }
-    public List<Student> getStudents(){
 
-    List<Student> students = new ArrayList<>();
+    public List<Student> getStudents() {
+
+        List<Student> students = new ArrayList<>();
         Connection connection = jdbcConnector.createConnection();
-        if (connection == null){
+        if (connection == null) {
             System.out.println("cia ateina");
             return Collections.emptyList();
         }
 
-        try{
+        try {
             Statement statement = connection.createStatement();
             ResultSet resultSet = statement.executeQuery("select * from students");
 
-            while (resultSet.next()){
+            while (resultSet.next()) {
                 students.add(mapStudent(resultSet));
             }
-        }
-        catch (SQLException e){
+        } catch (SQLException e) {
             System.out.println(e.getMessage());
         }
         return students;
     }
-    private Student mapStudent(ResultSet resultSet) throws SQLException{
-    return new Student(resultSet.getInt("id"),
-            resultSet.getString("name"),
-            resultSet.getString("surname"),
-            resultSet.getString("phone"),
-            resultSet.getString("email"));
+
+    private Student mapStudent(ResultSet resultSet) throws SQLException {
+        return new Student(resultSet.getInt("id"),
+                resultSet.getString("name"),
+                resultSet.getString("surname"),
+                resultSet.getString("phone"),
+                resultSet.getString("email"));
     }
 
 

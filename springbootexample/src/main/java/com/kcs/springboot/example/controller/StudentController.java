@@ -30,4 +30,15 @@ public class StudentController {
     public Student save(@RequestBody Student student){
         return studentService.createStudent(student);
     }
+
+    @DeleteMapping("/{studentId}/delete")
+    public void delete(@PathVariable("studentId") String studentId){
+        studentService.deleteStudent(studentId);
+    }
+
+    @PutMapping("/{studentId}/update")
+    public Student update(@PathVariable("studentId") String studentId, @RequestBody Student student){
+        student.setId(Integer.parseInt(studentId));
+        return studentService.updateStudent(student);
+    }
 }
