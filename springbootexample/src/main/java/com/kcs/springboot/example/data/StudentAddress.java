@@ -1,5 +1,7 @@
 package com.kcs.springboot.example.data;
 
+import java.util.Objects;
+
 public class StudentAddress {
     private int id;
     private int studentId;
@@ -7,6 +9,9 @@ public class StudentAddress {
     private String city;
     private String street;
     private String postCode;
+
+    public StudentAddress(){
+    }
 
     public StudentAddress(int id, int studentId, String country, String city, String street, String postCode) {
         this(studentId, country, city, street, postCode);
@@ -67,5 +72,22 @@ public class StudentAddress {
 
     public void setPostCode(String postCode) {
         this.postCode = postCode;
+    }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        StudentAddress that = (StudentAddress) o;
+        return studentId == that.studentId &&
+                country.equals(that.country) &&
+                city.equals(that.city) &&
+                street.equals(that.street) &&
+                postCode.equals(that.postCode);
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(studentId, country, city, street, postCode);
     }
 }
