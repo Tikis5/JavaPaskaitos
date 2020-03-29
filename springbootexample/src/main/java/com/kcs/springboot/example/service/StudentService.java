@@ -20,6 +20,41 @@ public class StudentService {
         this.jdbcConnector = jdbcConnector;
     }
 
+    public List<Student> getStudents() {
+        List<Student> students = new ArrayList<>();
+
+        try {
+            PreparedStatement preparedStatement = jdbcConnector.getPreparedStatement("select * from students");
+            ResultSet resultSet = preparedStatement.executeQuery();
+
+            while (resultSet.next()) {
+                students.add(mapStudent(resultSet));
+            }
+        } catch (SQLException e) {
+            System.out.println(e.getMessage());
+        }
+        return students;
+    }
+
+    public Student createStudent(Student student) {
+
+        try {
+            PreparedStatement preparedStatement = jdbcConnector.getPreparedStatement
+                    ("insert into students(name, surname, phone, email) values (?,?,?,?)");
+            preparedStatement.setString(1, student.getName());
+            preparedStatement.setString(2, student.getSurname());
+            preparedStatement.setString(3, student.getPhone());
+            preparedStatement.setString(4, student.getEmail());
+
+            preparedStatement.execute();
+            return getStudents().stream().filter(s -> s.equals(student)).findFirst().orElse(null);
+
+        } catch (SQLException e) {
+            System.out.println(e.getMessage());
+        }
+        return null;
+    }
+
     public Student updateStudent(Student student){
         Connection connection = jdbcConnector.createConnection();
         if (connection == null){
@@ -45,6 +80,7 @@ public class StudentService {
 
         return null;
     }
+
     public Student deleteStudent(String studentId) {
         Connection connection = jdbcConnector.createConnection();
         if (connection == null) {
@@ -55,30 +91,6 @@ public class StudentService {
             PreparedStatement preparedStatement = connection.prepareStatement("delete from students where id=?");
             preparedStatement.setInt(1, Integer.parseInt(studentId));
             preparedStatement.execute();
-
-        } catch (SQLException e) {
-            System.out.println(e.getMessage());
-        }
-        return null;
-    }
-
-
-    public Student createStudent(Student student) {
-        Connection connection = jdbcConnector.createConnection();
-        if (connection == null) {
-            return null;
-        }
-
-        PreparedStatement preparedStatement = null;
-        try {
-            preparedStatement = connection.prepareStatement("insert into students(name, surname, phone, email) values (?,?,?,?)");
-            preparedStatement.setString(1, student.getName());
-            preparedStatement.setString(2, student.getSurname());
-            preparedStatement.setString(3, student.getPhone());
-            preparedStatement.setString(4, student.getEmail());
-
-            preparedStatement.execute();
-            return getStudents().stream().filter(s -> s.equals(student)).findFirst().orElse(null);
 
         } catch (SQLException e) {
             System.out.println(e.getMessage());
@@ -106,28 +118,6 @@ public class StudentService {
         return null;
     }
 
-    public List<Student> getStudents() {
-
-        List<Student> students = new ArrayList<>();
-        Connection connection = jdbcConnector.createConnection();
-        if (connection == null) {
-            System.out.println("cia ateina");
-            return Collections.emptyList();
-        }
-
-        try {
-            Statement statement = connection.createStatement();
-            ResultSet resultSet = statement.executeQuery("select * from students");
-
-            while (resultSet.next()) {
-                students.add(mapStudent(resultSet));
-            }
-        } catch (SQLException e) {
-            System.out.println(e.getMessage());
-        }
-        return students;
-    }
-
     private Student mapStudent(ResultSet resultSet) throws SQLException {
         return new Student(resultSet.getInt("id"),
                 resultSet.getString("name"),
@@ -135,6 +125,4 @@ public class StudentService {
                 resultSet.getString("phone"),
                 resultSet.getString("email"));
     }
-
-
 }
